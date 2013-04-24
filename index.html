@@ -5,6 +5,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+  <link rel="apple-touch-icon" href="img/druplicon.jpg"/>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
 </head> 
@@ -135,7 +138,7 @@
 
 <br />
 
-      <input type="button" data-theme="b" data-inline="true" value="Save" />
+      <input type="button" data-theme="b" data-inline="true" value="Save" onclick="alert('Saved successfully.'); $.mobile.changePage('#list');" />
       <input type="button" data-theme="e" data-inline="true" value="Delete" />
     </form>
   </div><!-- /content -->
