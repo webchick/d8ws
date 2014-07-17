@@ -15,7 +15,7 @@ $(function () {
 // On List page, call out to Drupal to get the list of nodes.
 $(document).on("pageinit", "#list", function( event ) {
   $.ajax({
-    url: "http://8.x.local:8083/node",
+    url: "http://d8ws.webchick.net/node",
     type: "GET", // Default.
     // Add custom header for HAL.
     beforeSend: function( jqXHR ) {
